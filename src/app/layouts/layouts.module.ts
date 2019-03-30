@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from '../shared/shared.module';
-// import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { LayoutsComponent } from './layouts.component';
 
 @NgModule({
   declarations: [LayoutsComponent],
   imports: [
     SharedModule,
-    // NgZorroAntdModule
+    HttpClientModule
   ]
 })
 export class LayoutsModule { }
