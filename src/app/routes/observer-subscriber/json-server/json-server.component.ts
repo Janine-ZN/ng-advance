@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-json-serve',
-  templateUrl: './json-serve.component.html',
-  styleUrls: ['./json-serve.component.scss']
+  selector: 'app-json-server',
+  templateUrl: './json-server.component.html',
+  styleUrls: ['./json-server.component.scss']
 })
 export class JsonServeComponent implements OnInit {
 

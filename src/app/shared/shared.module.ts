@@ -13,7 +13,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    NgZorroAntdModule
+    NgZorroAntdModule,
   ],
   exports: [
     CommonModule,
