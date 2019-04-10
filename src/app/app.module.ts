@@ -9,10 +9,12 @@ import { AppComponent } from './app.component';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { SharedModule } from '../app/shared/shared.module';
 import { LayoutsModule } from './layouts/layouts.module';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
